@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(210, 234, 255);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Startup */
+.selectSym {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonConatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.button {
+  margin: 0.2rem 0.5rem;
+  padding: 5px 10px;
+  border: 2px solid #06053d;
+  border-radius: 5px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #06053d;
+  color: white;
+  cursor: pointer;
+}
+
+/* Container of Game */
+.container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.title {
+  font-family: monospace;
+  font-size: x-large;
+  font-weight: bold;
+  color: #06053d;
+  margin-bottom: 1.3rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.cell {
+  width: 7rem;
+  height: 7rem;
+  border: 2px solid #06053d;
+  cursor: pointer;
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+table tr td:last-child {
+  border-right: 0;
+}
+
+/* Result */
+.endGame {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.result {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.restart {
+  margin-top: 1rem;
+  padding: 5px 8px;
+  border: 2px solid #06053d;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: large;
+  font-weight: bold;
+}
+
+.restart:hover {
+  background-color: #06053d;
+  color: white;
+  cursor: pointer;
+}
